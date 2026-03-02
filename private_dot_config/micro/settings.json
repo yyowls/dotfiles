@@ -1,0 +1,11 @@
+{
+    "autosave": 2,
+    "basename": true,
+    "mkparents": true,
+    "ruler": false,
+    "savecursor": true,
+    "saveundo": true,
+    "softwrap": true,
+    "statusline": false,
+    "wordwrap": true
+}
