@@ -1,0 +1,104 @@
+#quickly use youtube archiving scripts located on khazad-dum
+alias ytarch-archnc-channels='cd /media/will/Khazad-dum/YouTube\ Archives/Archivist\ Scripts/"Archivist Scripts (No Comments)"/Channels/ && ./Channels.sh'
+alias ytarch-archnc-playlists='cd /media/will/Khazad-dum/YouTube\ Archives/Archivist\ Scripts/"Archivist Scripts (No Comments)"/Playlists/ && ./Playlists.sh'
+alias ytarch-archnc-unique='cd /media/will/Khazad-dum/YouTube\ Archives/Archivist\ Scripts/"Archivist Scripts (No Comments)"/Unique/ && ./Unique.sh'
+alias ytarch-recent-channels='cd /media/will/Khazad-dum/YouTube\ Archives/Archivist\ Scripts/Recent\ Scripts/Channels/ && ./Channels.sh'
+alias ytarch-recent-playlists='cd /media/will/Khazad-dum/YouTube\ Archives/Archivist\ Scripts/Recent\ Scripts/Playlists/ && ./Playlists.sh'
+alias ytarch-recent-unique='cd /media/will/Khazad-dum/YouTube\ Archives/Archivist\ Scripts/Recent\ Scripts/Unique/ && ./Unique.sh'
+
+#update specific non-repo software
+alias update-calibre='sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin'
+alias update-obsidian='flatpak update md.obsidian.Obsidian'
+
+#compress pdfs
+alias gs-ebook='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \ -dNOPAUSE -dQUIET -dBATCH -sOutputFile=ebook.pdf '
+alias gs-ebook2='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \ -dNOPAUSE -dQUIET -dBATCH -sOutputFile=ebook2.pdf '
+alias gs-printer='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer \ -dNOPAUSE -dQUIET -dBATCH -sOutputFile=gs-printer.pdf '
+alias gs-screen='gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/screen \ -dNOPAUSE -dQUIET -dBATCH -sOutputFile=screen.pdf '
+
+#libby
+alias libby-m4b='odmpy libby -c -f -k -m --mergeformat m4b'
+alias libby-mp3='odmpy libby -c -f -k -m --mergeformat mp3'
+
+#mount drives
+alias mount-khazad-dum='udisksctl mount --block-device /dev/disk/by-uuid/FBEB-F6BB'
+
+#edit espanso matches
+alias edit-espanso='nano ~/.config/espanso/match/base.yml'
+
+#edit aliases
+alias edit-aliases='nano ~/.bash_aliases'
+##Backup Aliases
+alias backup-aliases='bash ~/Scripts/Aliases/backup-aliases-versioning.sh iMac'
+alias backup-aliases-git='bash ~/Scripts/Aliases/backup-aliases-versioning-git.sh iMac'
+##Edit & Backup on Close
+alias edit-aliases-backup='nano ~/.bash_aliases && wait && bash ~/Scripts/Aliases/backup-aliases-versioning-git.sh RPi400'
+
+#Task List Management
+##Add task to daily list
+alias daily-list='bash ~/Scripts/Task\ List\ Management/create-open-daily-list.sh'
+alias add-task='bash ~/Scripts/Task\ List\ Management/add-task-daily.sh'
+alias add-task-open='bash ~/Scripts/Task\ List\ Management/add-task-daily-open.sh'
+##Archive yesterday's list, create new, update git
+alias newday='bash ~/Scripts/Task\ List\ Management/new-day.sh'
+##Process daily list for planner
+alias planner-daily-list='bash ~/Scripts/Task\ List\ Management/process-daily-list-for-planner.sh'
+alias planner-daily-list-notes='bash ~/Scripts/Task\ List\ Management/process-daily-list-for-planner_notes-only.sh'
+##Daily Journal Management
+alias daily-journal='bash ~/Scripts/Task\ List\ Management/create-open-daily-journal.sh'
+alias daily-journal-git='bash ~/Scripts/Task\ List\ Management/commit-push-reopen-daily-journal.sh'
+
+
+#Execute Bash Script to Emulate Ellipsus Word\ Count (Exclude '[]' and count words with --- between seperately); Follow with filename or wildcard
+alias ellipsus_wc='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc.sh'
+alias total_ellipsus_wc='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc-all.sh'
+alias ellipsus_wc_nc='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc-nc.sh'
+alias total_ellipsus_wc_nc='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc-all-nc.sh'
+alias ewc='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc.sh'
+alias ewc-nc='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc-nc.sh'
+alias ewc-t='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc-all.sh'
+alias ewc-t-nc='bash ~/Scripts/Writing/Word\ Count/ellipsus-wc-all-nc.sh'
+
+#Managing writing session files
+##Create new writing session file & open in nano
+alias new-writing='bash ~/Scripts/Writing/Session\ Management/writing-session-new.sh'
+##Create new dummy session file
+alias dummy-writing='bash ~/Scripts/Writing/Session\ Management/writing-session-dummy-file.sh'
+##Delete dummy files recursively
+alias deldummy='bash ~/Scripts/Writing/Session\ Management/delete-dummy-files.sh'
+##Execute End of Writing Day Script
+alias eod-writing='bash ~/Scripts/Writing/Session\ Management/end-writing-day.sh'
+##Add entry to session log & create/open new writing session file
+alias start-writing='bash ~/Scripts/Writing/Session-Management/session-start_1.0.sh'
+##Add entry to session log with session number and word count
+alias end-writing='bash ~/Scripts/Writing/Session-Management/session-end_1.6.sh'
+##Show most recent session log entry
+alias show-last-session='bash ~/Scripts/Writing/Session-Management/show-last-session-entry.sh'
+##Replace triple hyphens with em-dashes
+alias replace-triple-hyphen-em='bash ~/Scripts/Text\ Processing/change-triple-hyphen-to-emdash.sh'
+##Consolidate Writing Sessions to Single File
+alias consolidate-sessions='bash ~/Scripts/Writing/Consolidation/consolidate-file_no-line-comments.sh'
+alias consolidate-sessions-include-comments='bash ~/Scripts/Writing/Consolidation/consolidate-file_include-line-comments.sh'
+
+#Git Management
+##Current Repo Quick Add/Commit/Push
+alias git-quick-push='git add -A && git commit && git push'
+##Manage pi-writing on GitHub
+alias git-pi-writing-push='git -C ~/Documents/Writing/ add -A && git -C ~/Documents/Writing/ commit && git -C ~/Documents/Writing/ push'
+alias git-pi-writing-pull='git -C ~/Documents/Writing/ pull'
+##Manage management on GitHub
+alias git-management-push='git -C ~/Management add -A && git -C ~/Management commit && git -C ~/Management push'
+alias git-management-pull='git -C ~/Management/ pull'
+alias daily-list-git='bash ~/Scripts/Task\ List\ Management/commit-push-reopen-daily-list.sh'
+
+#Activate gitup venv & run (for use with ssh)
+alias run-gitup='bash ~/Scripts/Utilities/run-gitup.sh'
+#Misc Utilities
+##Make directory at path with current date
+alias mkdir-today='bash ~/Scripts/Utilities/make-directory-today.sh'
+
+#SSH to RPi400
+alias ssh-rpi400='ssh pi@10.0.0.122'
+
+#Upload Ibushi Streams
+alias upload-ibushi-streams='bash ~/Scripts/File\ Management/upload-ibushi-streams.sh'
