@@ -1,0 +1,14 @@
+[user]
+	name = yyowls
+	email = 67571381+yyowls@users.noreply.github.com
+[safe]
+	directory = /home/will/Documents/Obsidian/Brain/
+[credential]
+	helper = store
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[pull]
+	rebase = false
