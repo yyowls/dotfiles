@@ -1,0 +1,168 @@
+{
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb - AvistaZ)": {
+        "add_torrent_params": {
+            "category": "",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "/media/will/Khazad-dum/Temporary/Torrents",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/media/will/Khazad-dum/Temporary/Torrents/00 Seeding/AvistaZ",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "recursive": false
+    },
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb - CinemaZ)": {
+        "add_torrent_params": {
+            "category": "",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "/media/will/Khazad-dum/Temporary/Torrents",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/media/will/Khazad-dum/Temporary/Torrents/00 Seeding/CinemaZ",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "recursive": false
+    },
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb - MAM)": {
+        "add_torrent_params": {
+            "category": "",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "/media/will/Khazad-dum/Temporary/Torrents",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/media/will/Khazad-dum/Temporary/Torrents/00 Seeding/MAM",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "recursive": true
+    },
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb - PWT)": {
+        "add_torrent_params": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/media/will/Khazad-dum/Temporary/Torrents/00 Seeding/PWT",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+                "Wrestling"
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false
+        },
+        "recursive": false
+    },
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb - digitalcore)": {
+        "add_torrent_params": {
+            "category": "",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "/media/will/Khazad-dum/Temporary/Torrents",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/media/will/Khazad-dum/Temporary/Torrents/00 Seeding/DigitalCore",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "recursive": false
+    },
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb - scenetime ignore)": {
+        "add_torrent_params": {
+            "category": "SceneTime Ignore",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "/media/will/Khazad-dum/Temporary/Torrents",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/media/will/Khazad-dum/Temporary/Torrents/00 Seeding/SceneTime/Ignore",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "recursive": false
+    },
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb - scenetime)": {
+        "add_torrent_params": {
+            "category": "",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "/media/will/Khazad-dum/Temporary/Torrents",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/media/will/Khazad-dum/Temporary/Torrents/00 Seeding/SceneTime",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": true
+        },
+        "recursive": false
+    },
+    "/media/will/Khazad-dum/Temporary/Torrents/01 .torrent/Watch (qb)": {
+        "add_torrent_params": {
+            "category": "",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": true
+        },
+        "recursive": false
+    }
+}
